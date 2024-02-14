@@ -18,8 +18,8 @@ export default function Header() {
         animate={{ y: 0, opacity: 1 }}
       >
       
-        <div className="w-full">
-          <Link href="#home">Paulina Gadea</Link>
+        <div className="w-full text-[#043927] font-semibold">
+          <Link href="#home">Maeri's Portfolio</Link>
         </div>
 
         <nav className="flex w-full justify-end">
