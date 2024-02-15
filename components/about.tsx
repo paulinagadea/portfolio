@@ -4,6 +4,7 @@ import React from 'react'
 import { GoHeart } from 'react-icons/go';
 import { RiArrowGoBackFill } from 'react-icons/ri';
 import { RxPerson } from 'react-icons/rx';
+import { skillsData, methodsData } from '@/lib/data';
 
 export default function About() {
   return (
@@ -18,8 +19,49 @@ export default function About() {
         </h2>
 
         <div className='grid gap-4 grid-cols-2 grid-flow-col px-8 pb-8'>
-            <div className='flex flex-col gap-1'>
-                <p>SKILLS</p>
+            <div className='flex flex-col gap-1 items-center justify-center'>
+                <p className='text-[1rem] sm:text-[1.7rem] font-bold tracking-[-.05em] text-[#043927] 
+                leading-[3rem]'>
+                    My Skills
+                </p>
+
+                <div className="w-full">
+                    <div className="inset-x-0 left-0 h-px bg-green-100"></div>
+                </div>
+
+                <div className='text-center py-6'>
+                    <ul className='flex flex-wrap justify-center gap-2 text-lg text-[#355E3B]
+                    font-medium'>
+                        {skillsData.map((skill, index) => (
+                            <li 
+                                className='bg-green-100 border border-green-950/[0.2] rounded-2xl px-3
+                                py-2'
+                                key={index}>{skill}</li>
+                        ))}
+                    </ul>
+                </div>
+
+                <p className='text-[1rem] sm:text-[1.7rem] font-bold tracking-[-.05em] text-[#043927] 
+                leading-[3rem]'>
+                    Methods
+                </p>
+
+                <div className="w-full">
+                    <div className="inset-x-0 left-0 h-px bg-green-100"></div>
+                </div>
+
+                <div className='text-center py-6'>
+                    <ul className='flex flex-wrap justify-center gap-2 text-lg text-[#355E3B]
+                    font-medium'>
+                        {methodsData.map((method, index) => (
+                            <li 
+                                className='bg-green-100 border border-green-950/[0.2] rounded-2xl px-3
+                                py-2'
+                                key={index}>{method}</li>
+                        ))}
+                    </ul>
+                </div>
+
             </div>
 
             <div className='flex flex-col'>
@@ -61,8 +103,9 @@ export default function About() {
                         <p className='text-xl tracking-[-.03em] text-[#043927] font-bold'>Interests</p>
                     </div>
                     <p className='text-lg tracking-[-.03em] text-[#355E3B] font-semibold leading-[1.5rem]'>
-                    In my free time, I enjoy watching anime, reading (mostly fantasy), knitting, listening to music, and occasionally 
-                    playing video games.
+                    In my free time, I'm all about chilling out and doing things I love. I'm a huge fan of anime and fantasy books. 
+                    Knitting's my go-to for some chill time, especially when I'm jamming out to music. Occasionally, I'll also dive 
+                    into some video games.
                     </p>
                 </div>
             </div>

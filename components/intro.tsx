@@ -35,7 +35,7 @@ export default function Intro() {
             </p>
         </motion.div>
 
-        <motion.div className='flex flex-col sm:flex-row items-center justify-center gap-3 pt-8 pb-8
+        <motion.div className='flex flex-col sm:flex-row items-center justify-center gap-3 pt-8 
             text-lg font-medium'
             initial={{ opacity: 0, y: 100 }}
             animate={{ opacity: 1, y: 0 }}
