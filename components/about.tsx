@@ -7,13 +7,17 @@ import { RxPerson } from 'react-icons/rx';
 
 export default function About() {
   return (
-    <section className='flex flex-col absolute top-full w-[100%] items-center justify-center p-8'>
+    <section className='flex flex-col absolute top-full w-[100%] items-center justify-center'>
+        <div className="w-full">
+            <div className="inset-x-0 left-0 h-px bg-green-100"></div>
+        </div>
+
         <h2 className='text-[1rem] sm:text-[2.5rem] font-bold tracking-[-.05em] text-[#043927] 
-            sm:leading-[5rem] leading-[4rem]'>
+            sm:leading-[5rem] leading-[4rem] py-4'>
             About me
         </h2>
 
-        <div className='grid gap-4 grid-cols-2 grid-flow-col'>
+        <div className='grid gap-4 grid-cols-2 grid-flow-col px-8 pb-8'>
             <div className='flex flex-col gap-1'>
                 <p>SKILLS</p>
             </div>
@@ -62,6 +66,10 @@ export default function About() {
                     </p>
                 </div>
             </div>
+        </div>
+
+        <div className="w-full">
+            <div className="inset-x-0 left-0 h-px bg-green-100"></div>
         </div>
 
     </section>
