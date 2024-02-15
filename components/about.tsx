@@ -8,19 +8,18 @@ import { skillsData, methodsData } from '@/lib/data';
 
 export default function About() {
   return (
-    <section className='flex flex-col absolute top-full w-[100%] items-center justify-center'>
+    <section className='flex flex-col absolute top-full w-[100%] items-center justify-center sm:mt-0 mt-[8rem]'>
         <div className="w-full">
             <div className="inset-x-0 left-0 h-px bg-green-100"></div>
         </div>
 
-        <h2 className='text-[1rem] sm:text-[2.5rem] font-bold tracking-[-.05em] text-[#043927] 
-            sm:leading-[5rem] leading-[4rem] py-4'>
+        <h2 className='text-[2.5rem] font-bold tracking-[-.05em] text-[#043927] leading-[5rem] py-4'>
             About me
         </h2>
 
-        <div className='grid gap-4 grid-cols-2 grid-flow-col px-8 pb-8'>
+        <div className='sm:grid gap-4 grid-cols-2 grid-flow-col px-8 pb-8'>
             <div className='flex flex-col gap-1 items-center justify-center'>
-                <p className='text-[1rem] sm:text-[1.7rem] font-bold tracking-[-.05em] text-[#043927] 
+                <p className='text-[1.7rem] font-bold tracking-[-.05em] text-[#043927] 
                 leading-[3rem]'>
                     My Skills
                 </p>
@@ -41,7 +40,7 @@ export default function About() {
                     </ul>
                 </div>
 
-                <p className='text-[1rem] sm:text-[1.7rem] font-bold tracking-[-.05em] text-[#043927] 
+                <p className='text-[1.7rem] font-bold tracking-[-.05em] text-[#043927] 
                 leading-[3rem]'>
                     Methods
                 </p>
@@ -64,8 +63,8 @@ export default function About() {
 
             </div>
 
-            <div className='flex flex-col'>
-                <div className='flex flex-col items-start justify-center text-left p-2'>
+            <div className='flex flex-col gap-8 mt-4'>
+                <div className='flex flex-col items-start justify-center text-left'>
                     <div className='flex flex-row items-center justify-center gap-2'>
                         <div className='bg-white bg-opacity-20 p-1 text-green-950 flex items-center
                         border border-green-950/60 rounded-lg'>
@@ -79,7 +78,7 @@ export default function About() {
                     </p>
                 </div>
 
-                <div className='flex flex-col items-start justify-center text-left p-2'>
+                <div className='flex flex-col items-start justify-center text-left'>
                     <div className='flex flex-row items-center justify-center gap-2'>
                         <div className='bg-white bg-opacity-20 p-1 text-green-950 flex items-center
                         border border-green-950/60 rounded-lg'>
@@ -94,7 +93,7 @@ export default function About() {
                     </p>
                 </div>
 
-                <div className='flex flex-col items-start justify-center text-left p-2'>
+                <div className='flex flex-col items-start justify-center text-left'>
                     <div className='flex flex-row items-center justify-center gap-2'>
                         <div className='bg-white bg-opacity-20 p-1 text-green-950 flex items-center
                         border border-green-950/60 rounded-lg'>

@@ -7,7 +7,7 @@ import Link from 'next/link';
 
 export default function Header() {
   return (
-    <header className="sticky top-0 flex content-center h-[4rem] z-[999] bg-white
+    <header className="hidden sm:sticky top-0 sm:flex content-center h-[4rem] z-[999] bg-white
     rounded-none border border-white border-opacity-40 bg-opacity-70 shadow-lg 
     shadow-black/[0.03] backdrop-blur-[0.05rem]">
 
