@@ -8,7 +8,7 @@ import { skillsData, methodsData } from '@/lib/data';
 
 export default function About() {
   return (
-    <section className='flex flex-col absolute top-full w-[100%] items-center justify-center sm:mt-0 mt-[8rem]'>
+    <section className='flex flex-col absolute top-full w-[100%] items-center justify-center sm:mt-0 mt-[4rem]'>
         <div className="w-full">
             <div className="inset-x-0 left-0 h-px bg-green-100"></div>
         </div>
@@ -18,7 +18,7 @@ export default function About() {
         </h2>
 
         <div className='sm:grid gap-4 grid-cols-2 grid-flow-col px-8 pb-8'>
-            <div className='flex flex-col gap-1 items-center justify-center'>
+            <div className='flex flex-col gap-2 items-center justify-center'>
                 <p className='text-[1.7rem] font-bold tracking-[-.05em] text-[#043927] 
                 leading-[3rem]'>
                     My Skills

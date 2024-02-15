@@ -60,19 +60,21 @@ export default function Intro() {
                 Resume <HiDownload className='group-hover:translate-y-0.5 transition'/>
             </a>
 
-            <a className='bg-white bg-opacity-0 p-4 text-green-900 flex items-center gap-2
-            border border-green-800/60 rounded-2xl group outline-none focus:scale-105 hover:scale-105 
-            active:scale-100 hover:bg-green-200 transition cursor-pointer hover:text-green-950'
-            href='https://www.linkedin.com/in/paulinagadea/' target='_blank'>
-                <BsLinkedin />
-            </a>
+            <div className='flex flex-row gap-2'>
+                <a className='bg-white bg-opacity-0 p-4 text-green-900 flex items-center gap-2
+                border border-green-800/60 rounded-2xl group outline-none focus:scale-105 hover:scale-105 
+                active:scale-100 hover:bg-green-200 transition cursor-pointer hover:text-green-950'
+                href='https://www.linkedin.com/in/paulinagadea/' target='_blank'>
+                    <BsLinkedin />
+                </a>
 
-            <a className='bg-white bg-opacity-0 p-4 text-green-900 flex items-center gap-2
-            border border-green-800/60 rounded-2xl group outline-none focus:scale-105 hover:scale-105 
-            active:scale-100 hover:bg-green-200 transition cursor-pointer hover:text-green-950'
-            href='https://github.com/paulinagadea' target='_blank'>
-                <FaGithubSquare />
-            </a>
+                <a className='bg-white bg-opacity-0 p-4 text-green-900 flex items-center gap-2
+                border border-green-800/60 rounded-2xl group outline-none focus:scale-105 hover:scale-105 
+                active:scale-100 hover:bg-green-200 transition cursor-pointer hover:text-green-950'
+                href='https://github.com/paulinagadea' target='_blank'>
+                    <FaGithubSquare />
+                </a>
+            </div>
 
         </motion.div>
     </section>
