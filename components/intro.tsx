@@ -10,7 +10,7 @@ import { FaGithubSquare } from 'react-icons/fa';
 
 export default function Intro() {
   return (
-    <section className='flex absolute top-0 flex-col items-center justify-center text-center h-[100vh] px-4'>
+    <section className='flex absolute top-0 flex-col items-center justify-center text-center h-[100vh] px-4 mt-8'>
         <motion.div 
             initial={{ opacity: 0, y: 100 }}
             animate={{ opacity: 1, y: 0 }}
@@ -26,12 +26,12 @@ export default function Intro() {
                 Front End Developer | QA Tester
             </h2>
 
-            <motion.p className='text-[20px] sm:text-[1.5rem] font-semibold tracking-tighter text-center 
+            <p className='text-[20px] sm:text-[1.5rem] font-semibold tracking-tighter text-center 
             text-balance text-[#355E3B]'
             >
                 I'm open to new challenges and opportunities. Dive into my portfolio to see what I bring to the table. <br />
                 Got a coding project waiting? Let's team up and make it happen!
-            </motion.p>
+            </p>
         </motion.div>
 
         <motion.div className='flex flex-col sm:flex-row items-center justify-center gap-3 p-8
@@ -39,7 +39,7 @@ export default function Intro() {
             initial={{ opacity: 0, y: 100 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{
-                delay: 0.3,
+                delay: 0.2,
             }}
             >
 

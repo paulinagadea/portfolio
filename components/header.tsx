@@ -11,11 +11,9 @@ export default function Header() {
     rounded-none border border-white border-opacity-40 bg-opacity-70 shadow-lg 
     shadow-black/[0.03] backdrop-blur-[0.05rem]">
 
-      <motion.div 
+      <div 
         className="flex items-center w-full px-5 sm:px-10
       text-gray-500 text-[0.9] font-medium"
-        initial={{ y: -100, opacity: 0 }}
-        animate={{ y: 0, opacity: 1 }}
       >
       
         <div className="w-full text-[#043927] font-semibold">
@@ -38,7 +36,7 @@ export default function Header() {
           </ul>
         </nav>
 
-      </motion.div>
+      </div>
     </header>
   )
 }
